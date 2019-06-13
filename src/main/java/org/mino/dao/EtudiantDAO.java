@@ -21,7 +21,7 @@ public class EtudiantDAO {
 		listEtudiant.add(etudiant1);
 		listEtudiant.add(etudiant2);
 		listEtudiant.add(etudiant3);
-		listEtudiant.add(etudiant4);
+		listEtudiant.add(etudiant4); 
 	}
 
 	public List<Integer> getNotes() {
