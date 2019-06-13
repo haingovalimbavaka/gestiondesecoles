@@ -55,6 +55,6 @@ public class EtudiantDAOTest {
 	public void testGetListEtudiants() {
 		List<Etudiant> result = this.etudiantDAO.getListEtudiants();		
 		assertThat(result, IsNull.notNullValue());
-		assertThat(result.size(), IsEqual.equalTo(3));
+		assertThat(result.size(), IsEqual.equalTo(4));
 	}
 }

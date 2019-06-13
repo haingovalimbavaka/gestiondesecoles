@@ -43,7 +43,7 @@ public class EcoleDAOTest {
 	public void testGetEcoles() {
 		List<Ecole> result = this.ecoleDAO.getListEcoles();		
 		assertThat(result, IsNull.notNullValue());
-		assertThat(result.size(), IsEqual.equalTo(2));
+		assertThat(result.size(), IsEqual.equalTo(3));
 	}
 
 }
